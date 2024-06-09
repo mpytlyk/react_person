@@ -3,6 +3,7 @@ iframe {
 }
 
 .Person {
+  /* stylelint-disable-next-line value-no-vendor-prefix */
   width: -moz-fit-content;
   width: fit-content;
   margin-bottom: 16px;
@@ -10,9 +11,11 @@ iframe {
   border: 1px solid #000;
   border-radius: 8px;
 }
+
 .Person__name {
   margin-top: 8px;
 }
+
 .Person__age {
   color: #00f;
   font-weight: bold;
